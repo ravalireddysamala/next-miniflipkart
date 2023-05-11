@@ -1,0 +1,116 @@
+.layout{
+    /* width: 40%; */
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 2px 0px 5px grey;
+    background-color: #f8f8f8;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+
+.layout-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 40px; */
+    /* min-width: 200px;
+    max-width: 400px; */
+    margin: auto;
+}
+
+
+
+.layout-header>img{
+    border-radius: 20px;
+    width:20px; 
+    height:20px;
+}
+
+.layout-inputTag{
+    margin: auto;
+    /* width: 365px; */
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    display: inline-block; 
+}
+
+@media only screen and (min-width: 401px) {
+    .layout-inputTag {
+      width: 365px;
+    }
+  }
+
+
+.layout-inputTag>input{
+    border-collapse: collapse;
+    border: none;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.layout-filter{
+    /* min-width: 200px;
+    max-width: 400px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.layout-filter button{
+    padding: 10px;
+    background-color: white;
+    color: rgb(135, 135, 229);
+    border: 0.1px solid grey;
+    font-weight: 600;
+}
+
+.layout-imageholder{
+    /* min-width: 200px;
+    max-width: 400px; */
+    margin:auto;
+    margin-bottom: 20px;
+}
+.imageHolder-col{
+    align-items: center;
+    padding-left: 10px;
+}
+.imageholder{
+    background-color: white;
+    display: inline-block;
+    margin: 11px 12px;
+    /* width: 177px; */
+    width: 154px;
+}
+
+@media only screen and (min-width: 401px) {
+    .imageholder {
+      width: 177px;
+    }
+  }
+
+.imageholder-details{
+    /* min-width: 160px;
+    max-width: 200px; */
+    background-color: rgb(227, 172, 181);
+    border-radius: 17px 17px 0px 0px;
+    padding: 13px;
+}
+.name-details{
+    font-weight: normal;
+    font-size: 12px;
+}
+.fa{
+    margin-top: 10px;
+    color: rgb(180, 180, 221);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
