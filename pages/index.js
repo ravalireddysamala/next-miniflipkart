@@ -1,19 +1,20 @@
-
-import Head from "next/head"
-
+import Head from "next/head";
 
 function Home() {
-    return (
-
-        <>
-        <Head>
-            {/* <title>About codevlotion</title> */}
-            <meta name="description" content="Free from youtube channel"/>
-
-        {/* <h2>HomePage</h2> */}
-
-        </Head>
-        </>
-    )
+  return (
+    <>
+      {/* <div className="create">
+        <h2 style={{ marginTop: "25px" }}></h2>
+        <form>
+          <label>UserName</label>
+          <input type="text" />
+          <label>Password</label>
+          <input type="text" />
+          <button>Submit</button>
+        </form>
+      </div> */}
+      <h1 style={{"textAlign":"center"}}>Welcome to Next-MINI-FLIPCART</h1>
+    </>
+  );
 }
-export default Home
+export default Home;
